@@ -1,0 +1,44 @@
+Termos:
+- Codar (Programar, Desenvolver): Resolver problemas através de linhas de código
+    - Aprender a falar com o computador através de LINGUAGENS DE PROGRAMAÇÃO
+        - Web
+        - Mobile
+        - IoT
+        - Dados
+        - etc
+- App (Programas, Aplicativos)
+    - Navgadores
+    - Redes Sociais
+- Arquivos: são interpretados pelos Programas
+
+- Front-End:
+    - Desenvolvimento voltado para parte visual do do Programa
+-Back-End
+    - Desenvolvimento voltado para parte interna (código fonte, funcionamento) do Programa
+
+- HTML: Linguagem de marcação de texto para estruturar os textos, criar links, etc
+- CSS: Linguagem de estilo para deixar o HTML bonito
+- Javascript: Linguagem de programação que funciona no navegador
+- SQL: Banco de dados para guardar e proteger os dados do programa
+- NodeJS: Rodao Javascript no computador
+
+HTML:
+- Markup: Marcação de texto
+    - Elemento do texto ou <tag>
+        - <p> </p>
+- Atributos: Adicionam configurações e/ou informações as tags
+    - <a href="">
+    - id(identificador): serve para ser um identificador unico de cada tag
+    - class: vai ser um identificador de mais de uma tag
+
+CSS:
+- Estilos para HTML
+- Apresentação visual para o cliente
+- Composto por declarações
+    - pedaço de código que irá ditar as propriedades e valores a serem aplicados a um elemento 
+- Tudo é observado como uma caixa
+    - possui determinadas propriedades
+        - conteudo
+        - largura
+        - preenchimento
+        - espaçamento
