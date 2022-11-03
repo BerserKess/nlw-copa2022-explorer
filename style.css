@@ -7,12 +7,40 @@
 ul {
     list-style: none;
 }
+
+:root{
+    --primeiro-cartao-cor: #F7DD43;
+    --borda-primeiro-cartao: #746615;
+    --cor-de-fundo-cartao: #1D1C19;
+    --background:url(./assets/backgrounds/background-yellow.svg)
+}
 body{
     background-color: #121214;
-    background-image: url(./assets/background.svg);
-    background-position-y: center;
-    background-position-x: 55.6%;
+    background-image: var(--background);
+    background-position: top center;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
+body.blue{
+    --primeiro-cartao-cor: #338AF3;
+    --borda-primeiro-cartao: #338AF3;
+    --cor-de-fundo-cartao: #202024;
+    --background:url(./assets/backgrounds/background-blue.svg)
+}
+body.green{
+    --primeiro-cartao-cor: #047C3F;
+    --borda-primeiro-cartao: #047C3F;
+    --cor-de-fundo-cartao: #1A1F1B;
+    --background:url(./assets/backgrounds/background-green.svg)
+}
+body.germany{
+    --primeiro-cartao-cor: red;
+    --borda-primeiro-cartao: red;
+    --cor-de-fundo-cartao: #1D1C19;
+    --background:url(./assets/backgrounds/background-yellow.svg)
+}
+
 
 body * { /*todos os elementos dentro de body*/
     font-family: 'Roboto', sans-serif;
@@ -21,7 +49,8 @@ body * { /*todos os elementos dentro de body*/
 
 #app {    
     width: fit-content; /*encaixar no tamanho da tela disponivel*/
-    margin: 52px auto;
+    margin: auto;
+    padding-top: 52px;
 }
 
 header{
@@ -37,10 +66,33 @@ header{
 .card {
     padding: 32px 23px;
     text-align: center;
-    background: #1D1C19;
-    border-bottom: 1px solid #F7DD43;
+    background: var(--cor-de-fundo-cartao);
+    border-bottom: 1px solid var(--primeiro-cartao-cor);
     border-radius: 6px;
+    margin-bottom: 5px;
     
+}
+.card ul li img:hover {
+    transform: scale(1.1);
+    
+}
+.card ul li img {
+    transition: transform 0.3s ;
+}
+
+.card{
+    opacity: 0;
+    animation: aparecer .3s forwards; /* mantem a s opções do keyframes*/
+}
+
+@keyframes aparecer {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .card h2{
@@ -48,7 +100,7 @@ header{
     justify-content: center;
     align-items: center;
     padding: 8px 16px;
-    border: 1px solid #746615;
+    border: 1px solid var(--borda-primeiro-cartao);
     border-radius: 6px;
     gap: 16px;
     width: fit-content;
@@ -88,3 +140,11 @@ header{
     line-height: 125%;
 }
 
+@media (min-width: 700px){
+    #cards {
+        /*max-width: 700px;*/
+        flex-direction: row;
+        flex-wrap: wrap; /* se transbordar joga pra baixo*/
+        align-items: center;
+    }
+}
