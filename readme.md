@@ -1,13 +1,13 @@
 #  Calendário da copa 2022 <NLW - Copa: Trilha Explorer/> ⚽
 <div>
 <h2 align="center"> Prévia do Layout </h2>
-  <p align="center"><img "alt="Js" align="center" height="50%" width="50%" margin-left="30px" src="./assets/layout.png"></p>
+  <p align="center"><img align="center" height="50%" width="50%" margin-left="30px" src="./assets/layout.png"></p>
 </div>
  <div>
     <p> Projeto realizado utilizando:<br><br>
     <img  alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
     <img alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-    <img "alt="Js" height="30" width="40"src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+    <img alt="Js" height="30" width="40"src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
  </div>  
  
 ##
