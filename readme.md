@@ -1,7 +1,8 @@
-#  Calendário da copa 2022 <NLW - 10: Trilha Explorer/> ⚽
+#  Calendário da Copa 2022 <NLW - 10: Trilha Explorer/> ⚽
 <div>
 <h2 align="center"> Prévia do Layout </h2>
-  <p align="left"><img height="45%" width="45%" src="./.github/preview1.jpg"><img height="45%" width="47%"  src="./.github/preview2.jpg"></p>
+  <p align="center"><img height="50%" width="50%" src="./.github/preview1.jpg"></p>
+  <p align="center"> <img height="50%" width="50%"  src="./.github/preview2.jpg"> </p>
   
 </div>
  <div>
@@ -9,11 +10,10 @@
     <img  alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
     <img alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
     <img alt="Js" height="30" width="40"src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
- </div>  
+ </div>
  
-##
 ---
-## Descrição 📝
+<h2 align="center"> Descrição 📝</h2> 
 <div>
   <ul>
     <li><p>Projeto idealizado pela <i><a href="https://github.com/Rocketseat">@Rocketseat</a></i>🚀 </p></li>
