@@ -54,7 +54,7 @@ if (url == `${link}/nlw-copa2022-explorer/24.html`){
     jogos2 = criarCartao1('grupo h','24/11', 'quinta',
     criarJogo('uruguay','10:00','south-korea') +
     criarJogo('portugal','13:00','ghana'))
-} else if (url == `${link}/nlw-copa2022-explorer/28.html`) {
+} else if (url == `https://berserkess.github.io/nlw-copa2022-explorer/28.html`) {
     jogos1 = criarCartao1('grupo g','28/11', 'segunda',
     criarJogo('cameroon','07:00','serbia') +    
     criarJogo('brazil','13:00','switzerland')    
