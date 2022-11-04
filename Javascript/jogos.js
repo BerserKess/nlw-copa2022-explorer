@@ -4,7 +4,16 @@ let url = window.location.href
 let caminho = window.location.pathname
 let link = url.split(caminho)
 link = link[0]
-
+function voltarAoInicio (local){
+    return `
+    <a href="${local}"
+    <div class="botao">
+    <h2>voltar ao inicio</h2>
+    </div>
+    </a>
+    `
+    
+}
 
 function criarJogo (time1, hora, time2){
     return `
@@ -67,4 +76,7 @@ document.querySelector('#cards').innerHTML =
    `
    ${jogos1}
    ${jogos2}
+   ${voltarAoInicio('./index.html')}
    `
+
+ 

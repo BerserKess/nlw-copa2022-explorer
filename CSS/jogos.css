@@ -7,6 +7,9 @@
 ul {
     list-style: none;
 }
+a:link{
+    text-decoration: none;
+}
 
 :root{
     --primeiro-cartao-cor: #F7DD43;
@@ -61,6 +64,24 @@ header{
     display: flex;
     flex-direction: column;
     gap: 32px;
+}
+
+.botao{
+    margin: auto;
+    align-items: center;
+    border-radius: 6px;
+    padding: 22px 26px;
+    background: var(--cor-de-fundo-cartao);
+    border: 1px solid #F7DD43;
+
+}
+.botao button {
+    background: var(--cor-de-fundo-cartao);
+}
+.botao h2{
+    color: #F7DD43;
+    font-size: 18px;
+    text-transform: uppercase;
 }
 
 .card {

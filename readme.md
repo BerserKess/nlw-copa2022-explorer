@@ -1,7 +1,8 @@
-#  Calendário da copa 2022 <NLW - Copa: Trilha Explorer/> ⚽
+#  Calendário da copa 2022 <NLW - 10: Trilha Explorer/> ⚽
 <div>
 <h2 align="center"> Prévia do Layout </h2>
-  <p align="center"><img align="center" height="50%" width="50%" margin-left="30px" src="./assets/layout.png"></p>
+  <p align="left"><img height="45%" width="45%" src="./.github/preview1.jpg"><img height="45%" width="47%"  src="./.github/preview2.jpg"></p>
+  
 </div>
  <div>
     <p> Projeto realizado utilizando:<br><br>
@@ -11,7 +12,7 @@
  </div>  
  
 ##
-
+---
 ## Descrição 📝
 <div>
   <ul>
