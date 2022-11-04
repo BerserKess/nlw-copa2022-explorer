@@ -1,3 +1,4 @@
+let caminho = window.location.pathname
 
 let delay = -0.4;
 function diaDeJogos(data, dia, link = '#',preenchimento2 = 30){
