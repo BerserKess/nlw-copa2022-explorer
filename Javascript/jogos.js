@@ -3,9 +3,7 @@ let jogos2 = null
 let url = window.location.href
 let caminho = window.location.pathname
 let link = url.split(caminho)
-link = link[0]
-caminho = caminho.split('/nlw-copa2022-explorer/')
-let novoCaminho = caminho[1]
+
 function voltarAoInicio (local){
     return `
     <a href="${local}"
@@ -20,10 +18,10 @@ function voltarAoInicio (local){
 function criarJogo (time1, hora, time2){
     return `
     <li>
-        <img src="assets/icons/icon-${time1}.svg" alt="${time1}">
+        <img src="../assets/icons/icon-${time1}.svg" alt="${time1}">
         
         <strong>${hora}</strong>
-        <img src="assets/icons/icon-${time2}.svg" alt="${time2}">
+        <img src="../assets/icons/icon-${time2}.svg" alt="${time2}">
     </li>
     
     `
