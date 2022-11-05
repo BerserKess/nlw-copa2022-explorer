@@ -78,5 +78,3 @@ document.querySelector('#cards').innerHTML =
    ${jogos2}
    ${voltarAoInicio('./index.html')}
    `
-
- 
