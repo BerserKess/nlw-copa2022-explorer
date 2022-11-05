@@ -19,12 +19,12 @@ function criarJogo (time1, hora, time2){
     return `
     <li>
         <div class="nomeTime">
-            <img src="../assets/icons/icon-${time1}.svg" alt="${time1}">
+            <img src="./assets/icons/icon-${time1}.svg" alt="${time1}">
             <p>${time1}</p>
         </div>
         <strong>${hora}</strong>
         <div class="nomeTime">
-            <img src="../assets/icons/icon-${time2}.svg" alt="${time2}">
+            <img src="./assets/icons/icon-${time2}.svg" alt="${time2}">
             <p>${time2}</p>
         </div>
     </li>
