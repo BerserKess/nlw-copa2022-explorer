@@ -18,10 +18,10 @@ function voltarAoInicio (local){
 function criarJogo (time1, hora, time2){
     return `
     <li>
-        <img src="../assets/icons/icon-${time1}.svg" alt="${time1}">
+        <img src="./assets/icons/icon-${time1}.svg" alt="${time1}">
         
         <strong>${hora}</strong>
-        <img src="../assets/icons/icon-${time2}.svg" alt="${time2}">
+        <img src="./assets/icons/icon-${time2}.svg" alt="${time2}">
     </li>
     
     `
