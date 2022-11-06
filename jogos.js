@@ -50,7 +50,52 @@ function criarCartao1(grupo,data, dia,jogos){
     `
 }
 
-if (url == 'https://berserkess.github.io/nlw-copa2022-explorer/24.html'){
+if (url == 'https://berserkess.github.io/nlw-copa2022-explorer/20.html'){
+    jogos1 = criarCartao1('grupo a','20/11', 'domingo',
+    criarJogo('qatar','07:00','ecuador'))
+} else if (url == 'https://berserkess.github.io/nlw-copa2022-explorer/21.html'){
+    jogos1 = criarCartao1('grupo g','24/11', 'quinta',
+    criarJogo('switzerland','07:00','cameroon') +    
+    criarJogo('brazil','16:00','serbia'))
+    jogos2 = criarCartao1('grupo h','24/11', 'quinta',
+    criarJogo('uruguay','10:00','south-korea') +
+    criarJogo('portugal','13:00','ghana'))
+} else if (url == 'https://berserkess.github.io/nlw-copa2022-explorer/22.html'){
+    jogos1 = criarCartao1('grupo g','24/11', 'quinta',
+    criarJogo('switzerland','07:00','cameroon') +    
+    criarJogo('brazil','16:00','serbia'))
+    jogos2 = criarCartao1('grupo h','24/11', 'quinta',
+    criarJogo('uruguay','10:00','south-korea') +
+    criarJogo('portugal','13:00','ghana'))
+} else if (url == 'https://berserkess.github.io/nlw-copa2022-explorer/23.html'){
+    jogos1 = criarCartao1('grupo g','24/11', 'quinta',
+    criarJogo('switzerland','07:00','cameroon') +    
+    criarJogo('brazil','16:00','serbia'))
+    jogos2 = criarCartao1('grupo h','24/11', 'quinta',
+    criarJogo('uruguay','10:00','south-korea') +
+    criarJogo('portugal','13:00','ghana'))
+} else if (url == 'https://berserkess.github.io/nlw-copa2022-explorer/24.html'){
+    jogos1 = criarCartao1('grupo g','24/11', 'quinta',
+    criarJogo('switzerland','07:00','cameroon') +    
+    criarJogo('brazil','16:00','serbia'))
+    jogos2 = criarCartao1('grupo h','24/11', 'quinta',
+    criarJogo('uruguay','10:00','south-korea') +
+    criarJogo('portugal','13:00','ghana'))
+} else if (url == 'https://berserkess.github.io/nlw-copa2022-explorer/25.html'){
+    jogos1 = criarCartao1('grupo g','24/11', 'quinta',
+    criarJogo('switzerland','07:00','cameroon') +    
+    criarJogo('brazil','16:00','serbia'))
+    jogos2 = criarCartao1('grupo h','24/11', 'quinta',
+    criarJogo('uruguay','10:00','south-korea') +
+    criarJogo('portugal','13:00','ghana'))
+} else if (url == 'https://berserkess.github.io/nlw-copa2022-explorer/26.html'){
+    jogos1 = criarCartao1('grupo g','24/11', 'quinta',
+    criarJogo('switzerland','07:00','cameroon') +    
+    criarJogo('brazil','16:00','serbia'))
+    jogos2 = criarCartao1('grupo h','24/11', 'quinta',
+    criarJogo('uruguay','10:00','south-korea') +
+    criarJogo('portugal','13:00','ghana'))
+} else if (url == 'https://berserkess.github.io/nlw-copa2022-explorer/27.html'){
     jogos1 = criarCartao1('grupo g','24/11', 'quinta',
     criarJogo('switzerland','07:00','cameroon') +    
     criarJogo('brazil','16:00','serbia'))
@@ -58,6 +103,33 @@ if (url == 'https://berserkess.github.io/nlw-copa2022-explorer/24.html'){
     criarJogo('uruguay','10:00','south-korea') +
     criarJogo('portugal','13:00','ghana'))
 } else if (url == 'https://berserkess.github.io/nlw-copa2022-explorer/28.html') {
+    jogos1 = criarCartao1('grupo g','28/11', 'segunda',
+    criarJogo('cameroon','07:00','serbia') +    
+    criarJogo('brazil','13:00','switzerland')    
+    )
+    jogos2 = criarCartao1('grupo h','28/11', 'segunda',
+    criarJogo('south-korea','10:00','ghana') +
+    criarJogo('portugal','16:00','uruguay')
+    )
+} else if (url == 'https://berserkess.github.io/nlw-copa2022-explorer/29.html') {
+    jogos1 = criarCartao1('grupo g','28/11', 'segunda',
+    criarJogo('cameroon','07:00','serbia') +    
+    criarJogo('brazil','13:00','switzerland')    
+    )
+    jogos2 = criarCartao1('grupo h','28/11', 'segunda',
+    criarJogo('south-korea','10:00','ghana') +
+    criarJogo('portugal','16:00','uruguay')
+    )
+} else if (url == 'https://berserkess.github.io/nlw-copa2022-explorer/30.html') {
+    jogos1 = criarCartao1('grupo g','28/11', 'segunda',
+    criarJogo('cameroon','07:00','serbia') +    
+    criarJogo('brazil','13:00','switzerland')    
+    )
+    jogos2 = criarCartao1('grupo h','28/11', 'segunda',
+    criarJogo('south-korea','10:00','ghana') +
+    criarJogo('portugal','16:00','uruguay')
+    )
+} else if (url == 'https://berserkess.github.io/nlw-copa2022-explorer/01.html') {
     jogos1 = criarCartao1('grupo g','28/11', 'segunda',
     criarJogo('cameroon','07:00','serbia') +    
     criarJogo('brazil','13:00','switzerland')    

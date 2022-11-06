@@ -12,10 +12,11 @@ a:link{
 }
 
 :root{
-    --primeiro-cartao-cor: #F7DD43;
+    --primeiro-cartao-cor: #D80027;
+    --cor-texto-cartao: #F7DD43;
     --borda-primeiro-cartao: #746615;
-    --cor-de-fundo-cartao: #1D1C19;
-    --background:url(../assets/backgrounds/background-yellow.svg)
+    --cor-de-fundo-cartao: black;
+    --background:url(../assets/backgrounds/background-red.svg)
 }
 body{
     background-color: #121214;
@@ -95,6 +96,7 @@ header{
     font-size: 10px;
     color: #eee;
     text-transform: uppercase;
+    margin-top: 5px;
 }
 
 .card {
