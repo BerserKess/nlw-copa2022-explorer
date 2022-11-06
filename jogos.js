@@ -52,7 +52,8 @@ function criarCartao1(grupo,data, dia,jogos){
 
 if (url == 'https://berserkess.github.io/nlw-copa2022-explorer/20.html'){
     jogos1 = criarCartao1('grupo a','20/11', 'domingo',
-    criarJogo('qatar','07:00','ecuador'))
+    criarJogo('qatar','13:00','ecuador'))
+    jogos2 = ''
 } else if (url == 'https://berserkess.github.io/nlw-copa2022-explorer/21.html'){
     jogos1 = criarCartao1('grupo g','24/11', 'quinta',
     criarJogo('switzerland','07:00','cameroon') +    
